@@ -34,8 +34,7 @@ const pi = 3.14;
 console.log(pi); // 3.14
 ```
 
-
-## 
+##  Accessibility
 
 **Global** - accessible anywhere in the code
 
