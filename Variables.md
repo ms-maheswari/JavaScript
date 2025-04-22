@@ -11,7 +11,7 @@
 
 ```js
 var age = 25;
-console.log(age);
+console.log(age); // 25
 ```
 
 ## 2. let
@@ -21,22 +21,26 @@ console.log(age);
 
 ```js
 let name ="Mahes";
-console.log(name);
+console.log(name); // Mahes
 ```
 
 ## 3. const
 - Cannot reassigned
 - Block scope
 - Cannot redeclared
+
 ```js
 const pi = 3.14;
-console.log(pi);
+console.log(pi); // 3.14
 ```
 
 
 ## 
+
 **Global** - accessible anywhere in the code
 
 **Function** - limited to function where it's declared (var)
 
 **Block** - limited to a block {} (let and const) 
+
+
