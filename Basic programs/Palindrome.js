@@ -1,25 +1,15 @@
-function isPalindrome(s1, s2){
-    if(s1.length !== s2.length)
-        return false;
-
-    for(var i=0;i<s1.length-1;i++){
-        if(s1.charAt(i)===s2.charAt(i)){
-            return true;
-        }
+function isPalindrome(str){
+    let rev = "";
+    for(let i = str.length - 1; i >= 0; i--){
+        rev += str[i];
     }
-    return false;
+    return str === rev;
 }
 
-let string1 = "hellom";
+let str = "madam";  // Palindrome
 
-let string2 = "hello";
-
-if(isPalindrome(string1,string2)){
+if(isPalindrome(str)){
     console.log("Palindrome");
-}
-else{
+} else {
     console.log("Not a palindrome");
 }
-
-
-// Output : Not a palindrome
