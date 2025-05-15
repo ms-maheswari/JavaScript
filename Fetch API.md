@@ -6,7 +6,7 @@
 
 
 
-## 📋 Syntax
+##  Syntax
 ```js
 fetch(url, options)
   .then(response => response.json())
